@@ -16,7 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/player1_0"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
         <TextView
             android:id="@+id/player2"
@@ -24,7 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/player1"
             android:text="@string/player2_0"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:freezesText="true"/>
 
         <Button
             android:id="@+id/reset"
@@ -50,8 +52,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle,NestedWeights">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:freezesText="true">
 
         </Button>
 
@@ -60,8 +63,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
@@ -70,8 +74,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
@@ -88,8 +93,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle,NestedWeights">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:freezesText="true">
 
         </Button>
 
@@ -98,8 +104,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
@@ -108,8 +115,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
@@ -126,8 +134,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle,NestedWeights">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle,NestedWeights"
+            android:freezesText="true">
 
         </Button>
 
@@ -136,8 +145,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
@@ -146,8 +156,9 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="60sp"
-            tools:ignore="ButtonStyle">
+            android:textSize="45sp"
+            tools:ignore="ButtonStyle"
+            android:freezesText="true">
 
         </Button>
 
