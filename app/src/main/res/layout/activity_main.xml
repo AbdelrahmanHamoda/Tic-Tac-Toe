@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -16,7 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/player1_0"
+            android:paddingLeft="16dp"
             android:textSize="30sp"
+            android:textColor="@color/colorAccent"
             android:freezesText="true"/>
 
         <TextView
@@ -25,7 +28,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/player1"
             android:text="@string/player2_0"
+            android:paddingLeft="16dp"
             android:textSize="30sp"
+            android:textColor="@color/colorAccent"
             android:freezesText="true"/>
 
         <Button
@@ -36,6 +41,8 @@
             android:layout_centerVertical="true"
             android:layout_marginEnd="33dp"
             android:text="@string/reset"
+            android:background="@drawable/buttons_styles"
+            android:textColor="#FBE032"
             tools:ignore="RelativeOverlap" />
 
 
@@ -53,7 +60,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
-            tools:ignore="ButtonStyle,NestedWeights"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
+            tools:ignore="NestedWeights"
+            tools:text="X"
             android:freezesText="true">
 
         </Button>
@@ -64,6 +74,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle"
             android:freezesText="true">
 
@@ -75,6 +87,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle"
             android:freezesText="true">
 
@@ -94,6 +108,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle,NestedWeights"
             android:freezesText="true">
 
@@ -105,7 +121,9 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
             tools:ignore="ButtonStyle"
+            android:background="@drawable/buttons_styles"
             android:freezesText="true">
 
         </Button>
@@ -116,6 +134,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle"
             android:freezesText="true">
 
@@ -135,6 +155,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle,NestedWeights"
             android:freezesText="true">
 
@@ -146,6 +168,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle"
             android:freezesText="true">
 
@@ -157,6 +181,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="45sp"
+            android:textColor="#9C8C8C"
+            android:background="@drawable/buttons_styles"
             tools:ignore="ButtonStyle"
             android:freezesText="true">
 
